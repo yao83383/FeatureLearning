@@ -6,9 +6,16 @@ public class FeatureLearning : ModuleRules
 {
 	public FeatureLearning(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PublicIncludePaths.Add("Runtime/Launch/Public");
+		//PublicIncludePaths.Add("Runtime/Launch/Public");
 
-		PrivateDependencyModuleNames.AddRange(
+		string EngineDirectory = "D:/UnrealEngine-4.26/Engine";
+        PublicIncludePaths.Add(System.IO.Path.Combine(EngineDirectory, "Source/Runtime/Launch/Public"));
+        // PrivateIncludePaths.Add("Runtime/Launch/Private");      
+        PrivateIncludePaths.Add(System.IO.Path.Combine(EngineDirectory, "Source/Runtime/Launch/Private"));
+        // ...
+
+
+        PrivateDependencyModuleNames.AddRange(
 			new string[] {
 				"Core", "CoreUObject",
 				"AppFramework",

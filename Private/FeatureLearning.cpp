@@ -11,6 +11,7 @@
 #include "Tab/CommonWidget.h"
 #include "Tab/SplineWidget.h"
 #include "MenuTest.h"
+#include <MultiBoxBuilder.h>
 void InitApp();
 TSharedRef<SDockTab> SpawnSizeofTab(const FSpawnTabArgs& Args);
 

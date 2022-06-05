@@ -1,5 +1,9 @@
 
 #pragma once
+#include <SWidget.h>
+#include <STableViewBase.h>
+#include <SListView.h>
+#include <STreeView.h>
 class FCommonWidget :public TSharedFromThis<FCommonWidget>
 {
 public:

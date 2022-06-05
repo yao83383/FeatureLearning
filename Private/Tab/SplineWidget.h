@@ -1,4 +1,6 @@
 #pragma once
+#include <SWidget.h>
+#include <SlateEnums.h>
 class FSplineWidget :public TSharedFromThis<FSplineWidget>
 {
 public:

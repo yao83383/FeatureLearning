@@ -13,7 +13,7 @@ public class FeatureLearningTarget : TargetRules
 
 		LaunchModuleName = "FeatureLearning";
 		ExtraModuleNames.Add("EditorStyle");
-
+		SolutionDirectory = "RuntimeGizmoEXP426";
 		bBuildDeveloperTools = false;
 
 		// FeatureLearning doesn't ever compile with the engine linked in
@@ -29,6 +29,11 @@ public class FeatureLearningTarget : TargetRules
 		// Make sure to get all code in SlateEditorStyle compiled in
         bBuildDeveloperTools = true;
 
-		//bPreprocessOnly = true;
+        //bPreprocessOnly = true;
+
+        bCompileWithPluginSupport = true;
+        bIncludePluginsForTargetPlatforms = true;
+		bCompileICU = false;
+
 	}
 }

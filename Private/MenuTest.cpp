@@ -3,6 +3,11 @@
 #include "Styling/SlateStyle.h"
 #include "Widgets/Input/SButton.h"
 #include "Framework/Commands/UIAction.h"
+#include <UICommandList.h>
+#include <MultiBoxExtender.h>
+#include <MultiBoxBuilder.h>
+#include <STextBlock.h>
+#include <SCheckBox.h>
 DEFINE_LOG_CATEGORY_STATIC(LogMenuTest, Log, All);
 #define LOCTEXT_NAMESPACE "MenuFeature"
 

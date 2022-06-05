@@ -2,6 +2,8 @@
 #include "Widgets/SCompoundWidget.h"
 #include "Widgets/Input/SSpinBox.h"
 #include "Widgets/Input//SComboBox.h"
+#include <SlateColorBrush.h>
+#include <SButton.h>
 DEFINE_LOG_CATEGORY_STATIC(LogSpline, Log, All)
 #define LOCTEXT_NAMESPACE "SplineWidgetTest"
 class SSplineWidgetTest : public SCompoundWidget

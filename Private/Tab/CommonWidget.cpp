@@ -5,6 +5,7 @@
 #include "Widgets/Views/STableViewBase.h"
 #include "Widgets/Views/SHeaderRow.h"
 #include "Widgets/Views/STableRow.h"
+#include <STextBlock.h>
 #define LOCTEXT_NAMESPACE "SizeofType"
 DEFINE_LOG_CATEGORY_STATIC(LogSizeof, Log, All)
 // 多列表

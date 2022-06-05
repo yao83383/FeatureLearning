@@ -1,4 +1,9 @@
 #pragma once
+#include <UICommandInfo.h>
+#include <Commands.h>
+#include <SWidget.h>
+#include <UICommandList.h>
+
 // TCommands 指令定义（Command) : 菜单项点击（快捷键触发）
 class FTest1MenuCommands : public TCommands<FTest1MenuCommands>
 {
